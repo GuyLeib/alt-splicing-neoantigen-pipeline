@@ -11,7 +11,7 @@ create_splicing_antigens.py: Processes SplAdder's confirmed events, filters base
 
 run_pvacbind_all_events.py: Performs MHC binding and Immunogenicity predictions on the generated peptides using pVACbind (via Docker).
 
-How to run - examples: 
+# How to run - examples: 
 
 python run_spladder.py \
     -b /path/to/your/bam_files_directory \
